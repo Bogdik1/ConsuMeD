@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConsuMeD</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../common/style.css">
+    <script src="https://kit.fontawesome.com/1181537c73.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="../common/images/lo1.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class='windowPreloader'>
+        <div class='preloader'>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <div class='wrapperPre'>
+    <div class='firstS'>
+        <div class='defaultCont'>
+            <div class='texti1 imp'><h3 id = 'ro'> ROMANA</h3>
+            <div class = 'languagesSelect imp'>
+                <h3 id = 'en'>ENGLISH</h3>
+            </div></div>
+            <div class='bagDiv'>
+            <i class="fas fa-shopping-bag bag"></i>
+                <div class='indicator'>0</div>
+                <div class='bag-window'>
+                    <div class='purchased'>
+                    </div>
+                    <div class='lastSBag'>
+                        <div>
+                            <h4 class='totalBagPrice'>Total: 12000 lei</h4>
+                        </div>
+                        <div>
+                            <a href="../comanda/index.html"><button class='finalButton'>Cumpara</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h3><a href="../aboutPage/index.html" id = 'despreNoi'>DESPRE NOI</a></h3>
+        </div>
+    </div>
+    <div class='secondS'>
+        <div class="defaultCont d2">
+            <a href="../homePage/index.html"><img src="../common/images/ConsuMeD.png" alt="logo"></a>
+            <h3 class='sp' id = 'sp1'><a href="#">MÂNCAREA GĂTITĂ</a></h3>        
+            <h3 class='sp' id = 'sp2'><a href="#">INGREDIENTE</a></h3> 
+        </div>
+    </div>  
+    <div class='showDiv' id='show1'>
+        <ul>
+            <li><a href="../burgeri/index.html">Burgeri</a></li>
+            <li><a href="../sushi/index.html">Sushi</a></li>
+            <li><a href="../pizza/index.html">Pizza</a></li>
+            <li><a href="../salads/index.html">Salate</a></li>
+            <i class="fas fa-times cross"></i>
+        </ul>
+    </div>
+    <div class='showDiv' id = 'show2'>
+        <ul>
+            <li><a href="../cheese/index.html">Cașcaval</a></li>
+            <li><a href="../fruits/index.html">Fructe</a></li>
+            <li><a href="../vegetables/index.html">Legume</a></li>
+            <i class="fas fa-times cross"></i>
+        </ul>
+    </div>
+    <h2 class='ceiGustosi'>Cei mai gustoși burgeri din lume</h2>
+    <div class='forSelect'>
+        <div class='customSelect'>
+        <select id ='seli'>
+            <option>Alegeti sortarea</option>
+            <option>Nume (A > Z)</option>
+            <option>Nume (Z > A)</option>
+            <option>Preț (mic > mare)</option>
+            <option>Preț (mare > mic)</option>
+        </select>
+    </div>
+    </div>
+    <div class='allStuff'>
+        <div class="innerProduct" data-id='smokeburger' data-price = '69' data-aos='fade-right'>
+            <div class='asImg' style='background-image: url("../common/images/smokeBurger.jpg");'></div>
+            <h3 class='productTitle'>Smokerburger(290g)</h3>
+            <h4 class='productPrice'>69 lei</h4>
+            <button class='innerCumpara'>CUMPĂRĂ</button>
+        </div>
+        <div class="innerProduct" data-id='cheeseburger' data-price = '79' data-aos='fade-up'>
+            <div class='asImg' style='background-image: url("../common/images/cheeseburger.jpg");'></div>
+            <h3 class='productTitle'>Cheeseburger(310g)</h3>
+            <h4 class='productPrice'>79 lei</h4>
+            <button class='innerCumpara'>CUMPĂRĂ</button>
+        </div>
+        <div class="innerProduct" data-id = 'chickenburger' data-price = '71' data-aos='fade-left'>
+            <div class='asImg' style='background-image: url("../common/images/chickenBurger.jpg");'></div>
+            <h3 class='productTitle'>Chickenburger(230g)</h3>
+            <h4 class='productPrice'>71 lei</h4>
+            <button class='innerCumpara'>CUMPĂRĂ</button>
+        </div>
+        <div class="innerProduct" data-id='donutburger' data-price = '74' data-aos='fade-right'>
+            <div class='asImg' style='background-image: url("../common/images/donutBurger.jpg");'></div>
+            <h3 class='productTitle'>Donutburger(220g)</h3>
+            <h4 class='productPrice'>74 lei</h4>
+            <button class='innerCumpara'>CUMPĂRĂ</button>
+        </div>
+        <div class="innerProduct" data-id='crispyburger' data-price = '81' data-aos='fade-up'>
+            <div class='asImg' style='background-image: url("../common/images/crispyBurger.jpg");'></div>
+            <h3 class='productTitle'>Crispyburger(300g)</h3>
+            <h4 class='productPrice'>81 lei</h4>
+            <button class='innerCumpara'>CUMPĂRĂ</button>
+        </div>
+        <div class="innerProduct" data-id = 'grassburger' data-price = '79' data-aos='fade-left'>
+            <div class='asImg' style='background-image: url("../common/images/grassBurger.jpg");'></div>
+            <h3 class='productTitle'>Grassburger(285g)</h3>
+            <h4 class='productPrice'>79 lei</h4>
+            <button class='innerCumpara'>CUMPĂRĂ</button>
+        </div>
+        <div class="innerProduct" data-id='spicyburger' data-price = '83' data-aos='fade-right'>
+            <div class='asImg' style='background-image: url("../common/images/spicyBurger.jpg");'></div>
+            <h3 class='productTitle'>Spicyburger(210g)</h3>
+            <h4 class='productPrice'>83 lei</h4>
+            <button class='innerCumpara'>CUMPĂRĂ</button>
+        </div>
+        <div class="innerProduct" data-id='grillburger' data-price = '81' data-aos='fade-up'>
+            <div class='asImg' style='background-image: url("../common/images/grillBurger.jpg");'></div>
+            <h3 class='productTitle'>Grillburger(220g)</h3>
+            <h4 class='productPrice'>81 lei</h4>
+            <button class='innerCumpara'>CUMPĂRĂ</button>
+        </div>
+        <div class="innerProduct" data-id = 'funburger' data-price = '100' data-aos='fade-left'>
+            <div class='asImg' style='background-image: url("../common/images/funBurger.jpg");'></div>
+            <h3 class='productTitle'>Funburger(270g)</h3>
+            <h4 class='productPrice'>100 lei</h4>
+            <button class='innerCumpara'>CUMPĂRĂ</button>
+        </div>
+    </div>
+    <div class='lastSection'>
+        <div class='info'>
+            <div class='telInfo'>
+                <div class='ico'><img src="../common/images/tel.png" alt=""></div>
+                <div class='telText'>
+                    <h4>Telefon: 078645858</h4>
+                    <h4>Fax: (022) 64-58-58</h4>
+                </div>
+            </div>
+            <div class='telInfo'>
+                <div class='ico'><img src="../common/images/location.png" alt=""></div>
+                <div class='telText'>
+                    <h4>Adresa: Riga 33</h4>
+                </div>
+            </div>
+            <div class='telInfo'>
+                <div class='ico'><img src="../common/images/calendar.png" alt=""></div>
+                <div class='telText'>
+                    <h4>Lucrăm 24/7</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src='../common/code.js'></script>
+<script src='code.js'></script>
+</html>

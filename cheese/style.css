@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.ceiGustosi {
+  text-align: center;
+  color: #fff;
+  padding: 40px 0;
+  font-size: 40px;
+}
+
+@media screen and (max-width: 500px) {
+  .ceiGustosi {
+    font-size: 30px;
+  }
+}
